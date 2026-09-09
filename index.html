@@ -191,5 +191,10 @@
   <footer>Thanks for visiting the page! ツ</footer>
 
 </main>
+  <audio id="bgMusic" src="https://raw.githubusercontent.com/YaroeNoOtani/OtaniBase/refs/heads/main/Summer-Fragnance-by-Powerless.mp3" loop></audio>
+  <script>
+  document.getElementById('bgMusic').volume = 0.2;
+  document.addEventListener('click', () => document.getElementById('bgMusic').play(), { once: true });
+</script>
 </body>
 </html>
